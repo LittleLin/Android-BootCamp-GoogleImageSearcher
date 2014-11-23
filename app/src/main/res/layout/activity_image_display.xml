@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="info.littlelin.imagesearcher.activities.ImageDisplayActivity">
+
+    <info.littlelin.imagesearcher.views.widgets.TouchImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ivImageResult"
+        android:maxWidth="600dp"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Close"
+        android:id="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:onClick="closeFullImage"
+        android:layout_below="@+id/ivImageResult"
+         />
+
+
+</RelativeLayout>

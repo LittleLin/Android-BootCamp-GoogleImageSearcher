@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Image Searcher</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="search_prompt">Enter search query</string>
+    <string name="search_label">Search</string>
+    <string name="image_title_label">Image Result</string>
+    <string name="title_activity_image_display">Full Image</string>
+    <string name="title_activity_setting">SettingActivity</string>
+    <string name="search_setting_title">Advanced search options</string>
+    <string name="save_label">Save</string>
+    <string name="image_size_label">Image Size</string>
+    <string name="color_filter_label">Color Filter</string>
+    <string name="image_type_label">Image Type</string>
+    <string name="search_site_prompt">Target site</string>
+
+</resources>
